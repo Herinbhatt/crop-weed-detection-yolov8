@@ -306,7 +306,7 @@ names:
 <br>
 
 <div align="center">
-  <img src="results/Output1.png" alt="Sample detection output — bounding boxes on field images" width="720"/>
+  <img src="results/Output1.jpg" alt="Sample detection output — bounding boxes on field images" width="720"/>
   <br><em>Fig 5 — Sample object detection outputs. Each detected weed is enclosed in a labelled bounding box with species class and confidence score.</em>
 </div>
 
