@@ -152,7 +152,7 @@ flowchart LR
 
 The **MH-16 (Maharashtra-16) Weed Dataset** is an Indian agricultural dataset containing images of **16 distinct weed species** commonly found in soybean fields across Maharashtra and surrounding Indian states. It was curated specifically to address the lack of region-specific datasets for precision agriculture in India.
 
-**Dataset source:** [Kaggle — MH-16 Indian Soybean and Weed Dataset](https://www.kaggle.com)
+**Dataset source:** [Kaggle — MH-16 Indian Soybean and Weed Dataset]([https://www.kaggle.com](https://www.kaggle.com/datasets/sayalis069/mh-weed16))
 
 ### Species Summary
 
