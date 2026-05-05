@@ -11,7 +11,7 @@
         <img src="https://img.shields.io/badge/accuracy-90%25+-darkgreen?style=for-the-badge">
         <img src="https://img.shields.io/badge/framework-YOLOv8-blue?style=for-the-badge">
         <img src="https://img.shields.io/badge/dataset-MH--16-teal?style=for-the-badge">
-        <img src="https://img.shields.io/badge/license-MIT-red?style=for-the-badge">
+        <img src="https://img.shields.io/badge/license-MIT-darkred?style=for-the-badge">
       </td>
     </tr>
   </table>
