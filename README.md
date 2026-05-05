@@ -268,7 +268,7 @@ names:
 
 <!-- Replace with your actual uploaded images -->
 <div align="center">
-  <img src="results/confusion_matrix_classification.png" alt="Confusion matrix — classification model" width="480"/>
+  <img src="results/confusion_matrix_Classification.png" alt="Confusion matrix — classification model" width="480"/>
   <br><em>Fig 1 — Normalised confusion matrix of classification model. Near-diagonal distribution confirms consistent performance across all 16 species.</em>
 </div>
 
