@@ -223,7 +223,7 @@ path: ./data
 train: train/images
 val: test/images
 
-nc: 17  # number of classes (16 weeds + 1 soybean)
+nc: 16  # number of classes (16 weeds + 1 soybean)
 names:
   - commelina_benghalensis
   - parthenium_hysterophorus
@@ -241,7 +241,6 @@ names:
   - chenopodium_album
   - euphorbia_hirta
   - boerhaavia_diffusa
-  - soybean  # crop class
 ```
 
 ---
@@ -293,21 +292,21 @@ names:
 | Inference Speed | ~25ms/image (Colab T4) |
 
 <div align="center">
-  <img src="results/confusion_matrix_detection.png" alt="Confusion matrix — object detection model" width="480"/>
+  <img src="results/Confusion_Matrix_detection.png" alt="Confusion matrix — object detection model" width="480"/>
   <br><em>Fig 3 — Confusion matrix of object detection model.</em>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="results/loss_accuracy_detection.png" alt="Loss and accuracy graphs — object detection model" width="600"/>
+  <img src="results/Detection_loss accuracy.png" alt="Loss and accuracy graphs — object detection model" width="600"/>
   <br><em>Fig 4 — Object detection training curves: box loss, class loss, DFL loss, mAP@0.5, precision, and recall over 50 epochs.</em>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="results/detection_samples.png" alt="Sample detection output — bounding boxes on field images" width="720"/>
+  <img src="results/output1.png" alt="Sample detection output — bounding boxes on field images" width="720"/>
   <br><em>Fig 5 — Sample object detection outputs. Each detected weed is enclosed in a labelled bounding box with species class and confidence score.</em>
 </div>
 
