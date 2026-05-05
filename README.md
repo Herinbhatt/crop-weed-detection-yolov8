@@ -1,9 +1,9 @@
-<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="images.svg">
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         .container {
-          background: url('your-image-url-here');
+          background: url('images.svg');
           background-size: cover;
           color: white;
           padding: 40px;
