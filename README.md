@@ -349,13 +349,8 @@ crop-weed-detection-yolov8/
 │   ├── loss_accuracy_detection.png
 │   ├── detection_samples.png
 │   └── detection_demo.gif      ← live demo recording
-│
-├── showcase/
-│   └── Herin_Bhatt_Project_Portfolio.pdf
-│
+│  
 ├── requirements.txt
-├── .gitignore
-├── LICENSE
 └── README.md
 ```
 
@@ -385,16 +380,16 @@ pip install -r requirements.txt
 **`requirements.txt`:**
 
 ```
+# Core YOLO Dependencies
 ultralytics>=8.0.0
-torch>=2.0.0
-torchvision>=0.15.0
-opencv-python>=4.8.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-Pillow>=10.0.0
-pandas>=2.0.0
-PyYAML>=6.0
-tqdm>=4.65.0
+torch>=1.8.0
+torchvision>=0.9.0
+# Image & Math Utilities
+opencv-python>=4.6.0
+numpy>=1.22.0
+matplotlib>=3.3.0
+pillow>=8.0.0
+pandas>=1.1.4
 ```
 
 ### Step 3 — Download the Dataset
@@ -405,7 +400,7 @@ pip install kaggle
 
 # Download MH-16 dataset
 # Place your kaggle.json in ~/.kaggle/ first
-kaggle datasets download -d [mh16-dataset-slug]
+kaggle datasets download -d [Kaggle.json(Generates your own)]
 unzip mh16-dataset.zip -d data/
 ```
 
@@ -421,16 +416,13 @@ model = YOLO('yolov8n-cls.pt')
 
 # Train on MH-16 dataset
 results = model.train(
-    data='data/',           # path to dataset root with class folders
+    data='data/classification',           # path to dataset root with class folders
     epochs=100,
     imgsz=640,
     batch=16,
-    lr0=0.001,              # fine-tuned learning rate
     dropout=0.2,            # regularisation
     patience=20,            # early stopping
     project='runs/classify',
-    name='mh16_weed_cls',
-    device=0                # use GPU (0) or 'cpu'
 )
 
 print(f"Best accuracy: {results.results_dict}")
@@ -447,13 +439,11 @@ model = YOLO('yolov8s.pt')
 # Train detection model
 results = model.train(
     data='data/data.yaml',
-    epochs=50,
+    epochs=100,
     imgsz=640,
     batch=8,
-    lr0=0.01,
     project='runs/detect',
     name='mh16_weed_det',
-    device=0
 )
 ```
 
@@ -468,7 +458,7 @@ model = YOLO('models/best_detection.pt')
 
 # Run inference on a new field image
 results = model.predict(
-    source='path/to/your/field_image.jpg',
+    source='field_image1.jpg',
     conf=0.4,           # confidence threshold
     iou=0.3,            # NMS IoU threshold
     save=True,          # save annotated output image
@@ -566,16 +556,10 @@ These limitations are documented honestly — understanding failure modes is a c
 
 **Herin Bhatt**
 
-B.E. Computer Engineering · Neotech Campus · Gujarat Technological University · 2025
 
 📧 herinbhattflux@gmail.com &nbsp;·&nbsp;
 🐙 [github.com/herinbhatt](https://github.com/herinbhatt) &nbsp;·&nbsp;
-💼 [linkedin.com/in/herinbhatt](https://linkedin.com/in/herinbhatt)
-
-*Applying for M.Sc. Artificial Intelligence — BTU Cottbus-Senftenberg*
 
 <br>
-
-[![GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/herinbhatt/crop-weed-detection-yolov8)
 
 </div>
