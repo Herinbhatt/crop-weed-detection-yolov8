@@ -1,4 +1,4 @@
 <p align="center">
-  <img src="images/header.svg" width="400" alt="Banner" />
+  <img src="main.svg" width="400" alt="Banner" width="100%" />
 </p>
 
