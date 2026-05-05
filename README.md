@@ -1,7 +1,7 @@
 <div align="center">
   <table border="0" style="font-family:Arial, Helvetica, sans-serif;">
     <tr>
-      <td bgcolor="black" style="border-radius:150px; padding: 40px;">
+      <td bgcolor="#FFC0CB" style="border-radius:150px; padding: 40px;">
         <!-- Title and Icon -->
         <h1>🌿 Crop and Weed Detection System</h1>
         <p>Two-stage YOLOv8 pipeline for precision agriculture in Indian soybean fields</p>
