@@ -1,19 +1,18 @@
-<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .container {
-          background: url('images.svg');
-          background-size: cover;
-          color: white;
-          padding: 40px;
-          text-align: center;
-          font-family: sans-serif;
-        }
-      </style>
-      <div class="container">
-        <h1>Your Text Here</h1>
-      </div>
-    </div>
-  </foreignObject>
-</svg>
+<div align="center">
+  <table border="0">
+    <tr>
+      <td bgcolor="#0d1117" style="border-radius: 15px; padding: 40px;">
+        <!-- Title and Icon -->
+        <h1>🌿 Crop and Weed Detection System</h1>
+        <p>Two-stage YOLOv8 pipeline for precision agriculture in Indian soybean fields</p>
+        <p><i>Final Year B.E. Project · Neotech Campus, Vadodara · GTU · 2025</i></p>
+        <br>
+        <!-- Badges -->
+        <img src="https://img.shields.io/badge/accuracy-90%25+-green?style=for-the-badge">
+        <img src="https://img.shields.io/badge/framework-YOLOv8-blue?style=for-the-badge">
+        <img src="https://img.shields.io/badge/dataset-MH--16-teal?style=for-the-badge">
+        <img src="https://img.shields.io/badge/license-MIT-red?style=for-the-badge">
+      </td>
+    </tr>
+  </table>
+</div>
