@@ -1,4 +1,4 @@
-
+<html>
       <div class="hero-banner">
         <div class="hero-title">🌿 Crop and Weed Detection System</div>
         <div class="hero-sub">
@@ -14,3 +14,4 @@
           <div class="gh-badge"><span class="bl">license</span><span class="br red">MIT</span></div>
         </div>
       </div>
+</html>
