@@ -1,0 +1,11 @@
+# Core YOLO Dependencies
+ultralytics>=8.0.0
+torch>=1.8.0
+torchvision>=0.9.0
+
+# Image & Math Utilities
+opencv-python>=4.6.0
+numpy>=1.22.0
+matplotlib>=3.3.0
+pillow>=8.0.0
+pandas>=1.1.4
