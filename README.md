@@ -11,7 +11,6 @@
 
 <p>
   <strong>Two-stage YOLOv8 pipeline for precision weed detection in Indian soybean fields</strong><br>
-  <em>Final Year B.E. Project · Neotech Campus, Vadodara · Gujarat Technological University · 2025</em>
 </p>
 
 <!-- Badges -->
@@ -75,7 +74,7 @@
 
 ## 🌾 Problem Statement
 
-Soybean is one of India's most economically important crops, grown primarily across **Madhya Pradesh, Maharashtra, and Rajasthan**. During the critical **15–45 days after sowing**, soybean plants grow slowly with wide row spacing — creating ideal conditions for fast-growing weeds to establish themselves around young plants.
+Soybean is one of India's most economically important crops, grown primarily across **Madhya Pradesh, Maharashtra, Gujarat and Rajasthan**. During the critical **15–45 days after sowing**, soybean plants grow slowly with wide row spacing — creating ideal conditions for fast-growing weeds to establish themselves around young plants.
 
 If left uncontrolled during this window, **yield losses range from 30% to 80%**. The conventional response — blanket herbicide spraying across entire fields — causes severe downstream consequences:
 
@@ -94,7 +93,7 @@ If left uncontrolled during this window, **yield losses range from 30% to 80%**.
 
 This project implements a **two-stage deep learning pipeline** that processes a field image and outputs:
 
-1. **Classification** — Identifies each plant as one of 16 weed species or soybean crop (17 classes)
+1. **Classification** — Identifies each plant as one of 16 weed species or soybean crop (16 classes)
 2. **Localisation** — Draws precise bounding boxes around every detected weed in the full field image
 3. **Coordinates** — Outputs `(x, y, w, h)` for each bounding box — suitable for driving a precision sprayer actuator on a drone or ground robot
 
