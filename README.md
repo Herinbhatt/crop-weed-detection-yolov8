@@ -275,7 +275,7 @@ names:
 <br>
 
 <div align="center">
-  <img src="results/accuracy_graphs_classification.png" alt="Loss and accuracy graphs — classification model" width="600"/>
+  <img src="results/classification_loss accuracy.png" alt="Loss and accuracy graphs — classification model" width="600"/>
   <br><em>Fig 2 — Training and validation loss/accuracy curves. Smooth convergence confirms stable learning with no overfitting after fine-tuning.</em>
 </div>
 
