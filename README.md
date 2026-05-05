@@ -1,5 +1,4 @@
-# crop-weed-detection-yolov8
-Crop and weed detector
+
       <div class="hero-banner">
         <div class="hero-title">🌿 Crop and Weed Detection System</div>
         <div class="hero-sub">
