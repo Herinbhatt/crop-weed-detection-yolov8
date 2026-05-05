@@ -1,5 +1,5 @@
 <div align="center">
-  <table border="0">
+  <table border="0" style="font-family:Arial, Helvetica, sans-serif;">
     <tr>
       <td bgcolor="#0d1117" style="border-radius:150px; padding: 40px;">
         <!-- Title and Icon -->
