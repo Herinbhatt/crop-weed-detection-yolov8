@@ -1,3 +1,4 @@
-<div align="center">
- <img src="main title.png" width="700" align="center" />
-</div>
+<p align="center">
+  <img src="images/header.svg" width="400" alt="Banner" />
+</p>
+
