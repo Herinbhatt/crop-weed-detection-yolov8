@@ -22,8 +22,6 @@
 ![License](https://img.shields.io/badge/license-MIT-red?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Google_Colab-yellow?style=flat-square&logo=googlecolab)
 
-<br><br>
-
 <!-- Demo GIF — replace the path below with your actual GIF once recorded -->
 <!-- How to create: Run inference in Colab → screen record → convert at ezgif.com -->
 <img src="results/detection_demo.gif" alt="Live weed detection demo — bounding boxes appearing on soybean field image" width="720"/>
